@@ -10,3 +10,13 @@ const map = new mapboxgl.Map({
   zoom: 12, // starting zoom
   style: "mapbox://styles/mapbox/streets-v10" // mapbox has lots of different map styles available.
 });
+
+const markerElem = document.createElement("div");
+markerElem.style.width = "32px";
+markerElem.style.height = "39px";
+markerElem.style.backgroundImage = "url(http://i.imgur.com/WbMOfMl.png)";
+
+new mapboxgl.Marker(markerElem).setLngLat([-74.009, 40.705]).addTo(map);
+
+
+//****CHRISTIAN: I AM IN THE BATHROOM */******************* */
