@@ -2,7 +2,7 @@ console.log("Hello Amanda & Christian!");
 
 const mapboxgl = require("mapbox-gl");
 
-mapboxgl.accessToken = "YOUR API TOKEN HERE";
+mapboxgl.accessToken = "pk.eyJ1IjoiZWF0aW5nZm9pbCIsImEiOiJjam1pNnZma3UwMXZ3M2txbGUyNHBicjZ1In0.6NgrqdGZYKWYVhajFcRZeQ";
 
 const map = new mapboxgl.Map({
   container: "map",
