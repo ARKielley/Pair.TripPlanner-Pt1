@@ -1,3 +1,5 @@
+/* UNIVERSAL */
+
 * {
   box-sizing: border-box;
 }
@@ -8,6 +10,7 @@ body {
   background-color: #c1b5ad;
 }
 
+/* Main Divs */
 #map {
   height: 100vh;
   width: 100vw;
