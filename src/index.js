@@ -13,10 +13,8 @@ const map = new mapboxgl.Map({
   style: "mapbox://styles/mapbox/streets-v10" // mapbox has lots of different map styles available.
 });
 
-const fsaMarker =
-  // FullStack Coordinate
-  // new mapboxgl.Marker(markerElem).setLngLat([-74.009, 40.705]).addTo(map);
-  markerBuilder("activity", [-74.009, 40.705]);
+// FullStack Coordinate
+const fsaMarker = markerBuilder("activity", [-74.009, 40.705]);
 
 // Middle of Africa thanks to Random.org
 const africaMarker = markerBuilder("hotel", [4.428, 19.741]);
